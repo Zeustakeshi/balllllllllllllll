@@ -168,19 +168,19 @@ function checkVaCham_BallGach(){
 }
 function checkLevelScore(){
     switch (valueOption) {
-        case "Rất Dễ":
+        case "Very Easy":
             score +=1
             break;
-        case "Dễ":
+        case "Easy":
             score +=2
             break;
-        case "Trung Bình":
+        case "Medium":
             score +=4
             break;
-        case "Khó":
+        case "Hard":
             score +=6
             break;
-        case "Rất Khó":
+        case "Very Hard":
             score +=10
             break;
         default:
