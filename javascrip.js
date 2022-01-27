@@ -84,19 +84,19 @@ function setBall_Box(vo_x,vo_y,width_box,ball_radius){
 function getSelectCapDo(){
     valueOption = getSelect.options[getSelect.selectedIndex].text;
     switch (valueOption) {
-        case "Rất Dễ":
+        case "Very Easy":
             setBall_Box(1.5,2.5,150,15)
             break;
-        case "Dễ":
+        case "Easy":
             setBall_Box(3,5,150,15)
             break;
-        case "Trung Bình":
+        case "Medium":
             setBall_Box(6,5,150,15)
             break;
-        case "Khó":
+        case "Hard":
             setBall_Box(6,10,110,10)
             break;
-        case "Rất Khó":
+        case "Very Hard":
             setBall_Box(12,10,100,10)
             break;       
     }    
