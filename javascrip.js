@@ -40,6 +40,7 @@ function checkStart (){
         continues = true
         reset()
         audio3.play()
+        audio6.play()
     })
     document.getElementById("continues").addEventListener("click", function(){
         continues = true 
